@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  opncht-server:
+    container_name: opncht-server-local
+    command: yarn dev -L
