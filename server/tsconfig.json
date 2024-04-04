@@ -1,0 +1,16 @@
+{
+  "include": ["/src/**/*.d.ts"],
+  "compilerOptions": {
+    "target": "es2016",
+    "outDir": "./build",
+    "module": "commonjs",
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "typeRoots": ["./node_modules/@types", "./src/**/*.d.ts"]
+  }
+}
